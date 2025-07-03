@@ -19,13 +19,10 @@ public class MainClass {
         Scanner sc = new Scanner(System.in);
         System.out.print("Enter GPA for Student: ");
         std.setGPA(sc.nextDouble());
+        // test toStrings
         System.out.println(std);
-
         System.out.println(std1);
-
         System.out.println(std2);
-
-        // ToDo 13: add comments and explain your code
 
     }
 
